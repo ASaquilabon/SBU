@@ -1,0 +1,25 @@
+body {font-family: "Lato", sans-serif}
+
+#sbu
+{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 60px
+}
+#love
+{
+    color:#9e3477;
+    font-size: 40px;
+}
+#video-container {
+    top:0%;
+    left:0%;
+    height:auto;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+video {
+    position: inherit;
+    z-index:0;
+        width: 100%;
+}
