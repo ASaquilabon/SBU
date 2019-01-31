@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="assets/css/style.css" type="text/css" rel="stylesheet">
     <script src="assets/javascript/sbu.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -49,8 +51,8 @@
         <div class="w3-display-container w3-center">
             <img src="assets/photos/planets2.png" style="width:100%">
             <div class="w3-display-topmiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                <h1 id="sbu">SBU</h1>
-                <p id="love">Love to Live your Life</p>
+                <h1 data-aos="fade-up-right" id="sbu">SBU</h1>
+                <p data-aos="fade-up-left" id="love">Love to Live your Life</p>
             </div>
         </div>
 
@@ -58,7 +60,7 @@
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="band">
             <h2 class="w3-wide w3-center">ABOUT ME</h2>
             <p class="w3-opacity w3-center"><i>Lets Vibe</i></p>
-            <div class="w3-container" id="bio">
+            <div class="w3-container" data-aos="fade-up" id="bio">
                 <img src="assets/photos/sbu.png" id="sbu-photo" style="width:35%">
                 <p class="bio">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -143,6 +145,10 @@
         <i class="fa fa-twitter w3-hover-opacity"></i>
         <i class="fa fa-linkedin w3-hover-opacity"></i>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
