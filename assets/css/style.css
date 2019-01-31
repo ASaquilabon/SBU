@@ -2,13 +2,22 @@ body {font-family: "Lato", sans-serif}
 
 #sbu
 {
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 60px
+    font-size: 200px;
+    font-family: 'Bangers', cursive;
 }
 #love
 {
-    color:#9e3477;
+    color:lightgray;
+    font-family: 'Amatic SC', cursive;
     font-size: 40px;
+}
+
+#sbu-photo{
+    float:left;
+    margin-right:15px;
+}
+.bio {
+    margin:-5px;
 }
 #video-container {
     top:0%;
@@ -29,10 +38,12 @@ video {
     margin-top: -10px;
     top: 50%;
     left: 50%;
+    display:flex;
+    justify-content: center;
+
 }
 .soundcloud {
     z-index: 0;
     width: 50%;
-
 }
 
