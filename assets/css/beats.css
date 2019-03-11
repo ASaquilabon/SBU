@@ -13,22 +13,64 @@
  
  p {
    line-height: 2rem;
+   margin: 20px;
  }
- 
  .sidenav-trigger {
-   color: #26a69a;
+   color:black;
  }
- 
+ #sbu2 {
+   width: 35%;
+   height: auto;
+   float: left;
+   margin-right: 30px;
+ }
+ .contact {
+   width: 100%;
+   background-color: black;
+ }
  .parallax-container {
    min-height: 380px;
    line-height: 0;
    height: auto;
-   color: rgba(255,255,255,.9);
+   color: black;
  }
    .parallax-container .section {
      width: 100%;
    }
- 
+   .parallax img {
+     width: 100%;
+   }
+   /* label color */
+   .input-field label {
+    color: #000;
+  }
+  /* label focus color */
+  #first_name input[type=text]:focus + label {
+    color: #000;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #000;
+  }
+       
+ .contact-form {
+   background-color:black;
+ }
  @media only screen and (max-width : 992px) {
    .parallax-container .section {
      position: absolute;
