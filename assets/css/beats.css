@@ -29,7 +29,7 @@
    background-color: black;
  }
  .parallax-container {
-   min-height: 380px;
+   min-height: 450px;
    line-height: 0;
    height: auto;
    color: black;
@@ -37,8 +37,12 @@
    .parallax-container .section {
      width: 100%;
    }
+.black-white {
+     min-height: 650px;
+     height: auto;
+   }
    .parallax img {
-     width: 110%;
+     width: 105%;
    }
    /* label color */
    .input-field label {
